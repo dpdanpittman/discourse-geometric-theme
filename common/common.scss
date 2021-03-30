@@ -25,6 +25,20 @@ body {
   }
 }
 
+.d-header-icons .d-icon {
+  color: #4FB573  !important;
+}
+  
+.d-header-icons a:hover {
+  background-color: #789946 !important;
+  color: black !important;
+} 
+  
+.d-header-icons a {
+  background-color: #93bb54 !important;
+  color: white !important;
+}
+
 // New Topic Button
 // *------------------------------------------------*
 #create-topic {
