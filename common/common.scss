@@ -69,21 +69,21 @@ body {
 // *------------------------------------------------*
 .btn {
   background: $primary-low;
-  color: $color-white;
+  color: $color-black;
   border-radius: $radius-6;
   .discourse-no-touch & {
     &:hover, 
     &.btn-hover {
-      color: $color-white;
+      color: $color-black;
       background: $color-red;
       .d-icon {
-        color: $color-white;
+        color: $color-black;
       }
     }
   }
   &:hover, 
   &.btn-hover {
-    color: $color-white;
+    color: $color-black;
     background: $color-red;
     .d-icon {
       color: $color-red;
@@ -93,9 +93,9 @@ body {
   &.btn-active {
     background-image: none;
     background-color: $color-red;
-    color: $color-white;
+    color: $color-black;
     .d-icon {
-      color: $color-white;
+      color: $color-black;
     }
   } 
 }
