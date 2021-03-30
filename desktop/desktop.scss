@@ -13,6 +13,14 @@
   background: $secondary;
 }
 
+#body {
+  background-image: "../assets/Header_Image.jpg";
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 // Navigation Bar
 // *------------------------------------------------*
 .nav-pills li a {  
